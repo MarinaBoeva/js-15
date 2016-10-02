@@ -1,0 +1,33 @@
+form{
+  display: block;
+  text-align: center;
+  width: 500px;
+  position: relative;
+}
+.text{
+  width: 500px;
+  height: 38px;
+  border: 0.5px solid #d0d0d0;
+  font-size: 20px;
+}
+.submit{
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  top:0;
+  left:480px;
+  border: none;
+  padding: 0;
+  background-color: #1E90FF;
+  background-image: url(../img/search.png);
+  background-size: cover;
+}
+.submit:hover{
+  background-color: #5179f1;
+}
+.results{
+  margin: 20px 20px 0 0;
+  height: 200px;
+  width: 250px;
+  display: inline-block;
+}
